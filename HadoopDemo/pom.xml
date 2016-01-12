@@ -9,6 +9,10 @@
 
 	<name>HadoopDemo</name>
 	<url>http://maven.apache.org</url>
+	
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
 
 	<dependencies>
 		<dependency>
@@ -57,7 +61,6 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.3</version>
 				<configuration>
-					<encoding>UTF-8</encoding>
 					<source>1.7</source>
 					<target>1.7</target>
 				</configuration>
